@@ -40,7 +40,7 @@ const MadlibSlotMachine = () => {
       "Literary",
       "Indigo",
       "Bootleg",
-      "Abdominal",
+      "an Era of",
       "Discount",
       "Second Wave",
       "Hypnotic",
@@ -109,13 +109,13 @@ const MadlibSlotMachine = () => {
   };
 
   return (
-      <div className="SlotMachine">
+      <div className="slot-machine">
         <div className="slot">
           <section>
             <div className="container" ref={slotRef[0]}>
               {verbs.map((verb, i) => (
                 <div key={i}>
-                  <span>{verb}</span>
+                  <h1>{verb}</h1>
                 </div>
               ))}
             </div>
@@ -126,7 +126,7 @@ const MadlibSlotMachine = () => {
             <div className="container" ref={slotRef[1]}>
               {adjectives.map(adjective => (
                 <div>
-                  <span>{adjective}</span>
+                  <h1>{adjective}</h1>
                 </div>
               ))}
             </div>
@@ -137,7 +137,7 @@ const MadlibSlotMachine = () => {
             <div className="container" ref={slotRef[2]}>
               {nouns.map(noun => (
                 <div>
-                  <span>{noun}</span>
+                  <h1>{noun}</h1>
                 </div>
               ))}
             </div>
@@ -147,7 +147,7 @@ const MadlibSlotMachine = () => {
           className={!rolling ? "roll rolling" : "roll"}
           onClick={!rolling && roll}
           disabled={rolling}>
-          {rolling ? "Rolling..." : "ROLL"}
+          {rolling ? "Finding out..." : "What else?"}
         </div>
       </div>
     ); 

@@ -4,8 +4,10 @@ import MadlibSlotMachine from './MadlibSlotMachine';
 function App() {
   return (
     <>
-      <h1>YOUR SHIRT IS</h1>
-      <MadlibSlotMachine />
+      <div className="main-flex">
+        <h1>YOUR SHIRT IS</h1>
+        <MadlibSlotMachine />
+      </div>
     </>
   );
 }
