@@ -1,12 +1,11 @@
 import React, { useState, useRef } from 'react'
 
 const MadlibSlotMachine = () => {
-  const [verb,setVerb] = useState("🍒");
-  const [adjective,setAdjective] = useState("🍒");
-  const [noun,setNoun] = useState("🍒");
+  const [verb,setVerb] = useState("G");
+  const [adjective,setAdjective] = useState("A");
+  const [noun,setNoun] = useState("Y");
   const [rolling,setRolling] = useState(false);
   let slotRef = [useRef(null), useRef(null), useRef(null)];
-  const fruits = ["🍒", "🍉", "🍊", "🍓", "🍇", "🥝"]
 
   const verbs = [
     "Validating",
@@ -15,15 +14,19 @@ const MadlibSlotMachine = () => {
     "Giving",
     "Repelling",
     "Healing",
-    "Evoking",
+    "Demystifying",
     "Inviting",
     "Softening",
     "Critiquing",
     "Eradicating",
-    "Tearing Down",
+    "Dividing",
     "Testing",
     "Withstanding",
-    "Punishing"
+    "Punishing",
+    "Trying",
+    "Violating",
+    "Cancelling",
+    "Embracing"
     ]
 
     const adjectives = [
@@ -37,11 +40,15 @@ const MadlibSlotMachine = () => {
       "Literary",
       "Indigo",
       "Bootleg",
-      "Musical",
+      "Abdominal",
       "Discount",
-      "Glitter",
+      "Second Wave",
       "Hypnotic",
-      "Classic" 
+      "Classical",
+      "Subcultural",
+      "Superstitious",
+      "Bicoastal",
+      "Choatic"
     ]
 
     const nouns = [
@@ -52,14 +59,18 @@ const MadlibSlotMachine = () => {
       "Babies",
       "Horses",
       "Lesbians",
-      "Princesses",
+      "Cabinetry",
       "Theories",
       "Hypotheses",
       "Politics",
       "Sportscars",
       "Poetry",
       "Erasure",
-      "Borders"
+      "Music",
+      "Waters",
+      "Boundaries",
+      "Dissertations",
+      "Rave Kids"
     ]
   
   // to trigger roolling and maintain state
