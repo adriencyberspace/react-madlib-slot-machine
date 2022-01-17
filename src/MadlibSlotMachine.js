@@ -26,7 +26,8 @@ const MadlibSlotMachine = () => {
     "Trying",
     "Violating",
     "Cancelling",
-    "Embracing"
+    "Embracing",
+    "Infantilizing"
     ]
 
     const adjectives = [
@@ -45,15 +46,16 @@ const MadlibSlotMachine = () => {
       "Second Wave",
       "Hypnotic",
       "Classical",
-      "Subcultural",
+      "Suburban",
       "Superstitious",
       "Bicoastal",
-      "Choatic"
+      "Choatic",
+      "Problematic"
     ]
 
     const nouns = [
       "Cowgirls",
-      "Cowboys",
+      "Novellas",
       "They/Thems",
       "She/Theys",
       "Babies",
@@ -70,7 +72,8 @@ const MadlibSlotMachine = () => {
       "Waters",
       "Boundaries",
       "Dissertations",
-      "Rave Kids"
+      "Rave Kids",
+      "Reiki"
     ]
   
   // to trigger roolling and maintain state
