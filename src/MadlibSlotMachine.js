@@ -27,7 +27,9 @@ const MadlibSlotMachine = () => {
     "Violating",
     "Cancelling",
     "Embracing",
-    "Infantilizing"
+    "Homogenizing",
+    "Politicizing",
+    "Flirting with"
     ]
 
     const adjectives = [
@@ -46,11 +48,13 @@ const MadlibSlotMachine = () => {
       "Second Wave",
       "Hypnotic",
       "Classical",
-      "Suburban",
+      "Realtree™",
       "Superstitious",
       "Bicoastal",
       "Choatic",
-      "Problematic"
+      "Paula Cole's",
+      "Fantasy",
+      "TikTok"
     ]
 
     const nouns = [
@@ -65,7 +69,7 @@ const MadlibSlotMachine = () => {
       "Theories",
       "Hypotheses",
       "Politics",
-      "Sportscars",
+      "BMX Bikes",
       "Poetry",
       "Erasure",
       "Music",
@@ -73,7 +77,9 @@ const MadlibSlotMachine = () => {
       "Boundaries",
       "Dissertations",
       "Rave Kids",
-      "Reiki"
+      "Reiki",
+      "Power Tools",
+      "Sports Bras",
     ]
   
   // to trigger roolling and maintain state
