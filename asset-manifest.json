@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-madlib-slot-machine/static/css/main.eda0a563.css",
-    "main.js": "/react-madlib-slot-machine/static/js/main.6892b869.js",
+    "main.css": "/react-madlib-slot-machine/static/css/main.bf229f4c.css",
+    "main.js": "/react-madlib-slot-machine/static/js/main.88d613fc.js",
     "static/js/787.e82dc4b9.chunk.js": "/react-madlib-slot-machine/static/js/787.e82dc4b9.chunk.js",
     "index.html": "/react-madlib-slot-machine/index.html",
-    "main.eda0a563.css.map": "/react-madlib-slot-machine/static/css/main.eda0a563.css.map",
-    "main.6892b869.js.map": "/react-madlib-slot-machine/static/js/main.6892b869.js.map",
+    "main.bf229f4c.css.map": "/react-madlib-slot-machine/static/css/main.bf229f4c.css.map",
+    "main.88d613fc.js.map": "/react-madlib-slot-machine/static/js/main.88d613fc.js.map",
     "787.e82dc4b9.chunk.js.map": "/react-madlib-slot-machine/static/js/787.e82dc4b9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eda0a563.css",
-    "static/js/main.6892b869.js"
+    "static/css/main.bf229f4c.css",
+    "static/js/main.88d613fc.js"
   ]
 }
