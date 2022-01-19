@@ -19,17 +19,26 @@ const MadlibSlotMachine = () => {
     "Softening",
     "Critiquing",
     "Eradicating",
-    "Dividing",
+    "Polarizing",
     "Testing",
-    "Withstanding",
+    "Fueling",
     "Punishing",
-    "Trying",
+    "Softer than",
     "Violating",
     "Cancelling",
     "Embracing",
     "Homogenizing",
     "Politicizing",
-    "Flirting with"
+    "Flirting with",
+    "Available for",
+    "Gayer than",
+    "Romanticizing",
+    "Celebrating",
+    "Dismantling",
+    "Distracting to",
+    "Normalizing",
+    "Weaponizing"
+
     ]
 
     const adjectives = [
@@ -51,15 +60,25 @@ const MadlibSlotMachine = () => {
       "Realtree™",
       "Superstitious",
       "Bicoastal",
-      "Choatic",
+      "Chaotic",
       "Paula Cole's",
       "Fantasy",
-      "TikTok"
+      "TikTok",
+      "Asexual",
+      "Geriatric",
+      "Future", 
+      "Closeted",
+      "Internalized",
+      "Heteroromantic",
+      "Art School",
+      "Nonmonogamous"
+      
+
     ]
 
     const nouns = [
       "Cowgirls",
-      "Novellas",
+      "Soap Operas",
       "They/Thems",
       "She/Theys",
       "Babies",
@@ -69,17 +88,26 @@ const MadlibSlotMachine = () => {
       "Theories",
       "Hypotheses",
       "Politics",
-      "BMX Bikes",
+      "BMXers",
       "Poetry",
       "Erasure",
       "Music",
-      "Waters",
+      "Water Signs",
       "Boundaries",
       "Dissertations",
       "Rave Kids",
-      "Reiki",
+      "Breathwork",
       "Power Tools",
       "Sports Bras",
+      "Influencers",
+      "Service Tops", 
+      "Past Lives",
+      "Normativity",
+      // "Empathy",
+      "Fragility",
+      "Shame",
+      "Sex Positivity",
+      "Nonchalance"
     ]
   
   // to trigger roolling and maintain state
