@@ -146,6 +146,8 @@ const MadlibSlotMachine = () => {
   };
 
   return (
+    <div className="main-flex">
+      <h1>YOUR SHIRT IS</h1>
       <div className="slot-machine">
         <div className="slot">
           <section>
@@ -187,6 +189,7 @@ const MadlibSlotMachine = () => {
           {rolling ? "Finding out..." : "What else?"}
         </div>
       </div>
+    </div>
     ); 
 };
 
